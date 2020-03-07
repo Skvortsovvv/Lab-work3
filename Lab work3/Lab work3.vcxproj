@@ -152,7 +152,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Cube.cpp" />
-    <ClCompile Include="Lab work3.cpp" />
+    <ClCompile Include="Lab work3.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/UTF-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="Square.cpp" />
   </ItemGroup>
   <ItemGroup>
