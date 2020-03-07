@@ -8,4 +8,5 @@ public:
 	Square(double lenght, double width);
 	virtual double Squared();
 	virtual void print();
+
 };
